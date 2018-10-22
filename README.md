@@ -19,6 +19,13 @@ Create new foodcipes app.
 
 *	Model Tests - unit testing
 
+*	TDD - Design the app fuctionality based on test first approach
+	-	Write the test for the functionality
+	-	Build minimum code necessary to make each test pass
+	- Refactor the code - "code doesn't smell" - clean code
+
+
+
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
