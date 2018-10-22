@@ -1,13 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Create new foodcipes app.
 
-Things you may want to cover:
+* Ruby version: ruby 2.3.3p222
 
-* Ruby version
-
-* System dependencies
+* Rails version: Rails 5.1.6
 
 * Configuration
 
@@ -15,10 +12,15 @@ Things you may want to cover:
 
 * Database initialization
 
-* How to run the test suite
+* Minitest:
+	- How to run the test suite
+	- Layout of application
+	- Integration testing
+
+*	Model Tests - unit testing
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
-* ...
+* 
