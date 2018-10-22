@@ -24,6 +24,9 @@ Create new foodcipes app.
 	-	Build minimum code necessary to make each test pass
 	- Refactor the code - "code doesn't smell" - clean code
 
+*	Look at some sample layouts for homepage and create a homepage design
+	- Add Boostrap
+
 
 
 * Services (job queues, cache servers, search engines, etc.)
