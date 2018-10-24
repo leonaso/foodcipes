@@ -32,5 +32,6 @@ Create new foodcipes app.
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+	-	Set ready for deployment
 
 * 
