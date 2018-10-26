@@ -34,4 +34,30 @@ Create new foodcipes app.
 * Deployment instructions
 	-	Set ready for deployment
 
-* 
+*	Relational Databases
+	- SQL
+	-	ActiveRecord - Ruby Object Relational Mapper - ORM.
+	-	Dabase layer associations
+		1:m, m:1, m:m
+
+-
+
+*	Recipes
+	-	recipe should be valid
+	-	name should be present
+	-	description should be present
+	-	chef_id should be present
+	-	maximum and minimum lenght for name and description
+
+*	Chef
+	-	chefname should be present
+	-	email should be present
+	-	size restrictions on email and chefname
+	-	email should valid format
+	-	email should be unique, case insensitive
+	
+
+
+
+
+-

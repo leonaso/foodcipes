@@ -6,7 +6,6 @@ $navbar-default-bg: #073B15;
 .center {
 	text-align: center;
 }
-
 .jumbotron {
 	background-image: asset-url('pudding.jpg');
 	background-size: cover;
@@ -14,7 +13,7 @@ $navbar-default-bg: #073B15;
 	color: #fff
 }
 
-.jumbotron h1, h2 {
+.jumbotron h1 h2 {
 	color: #fff;
 	text-align: center;
 	margin-bottom: 30px;
@@ -37,5 +36,11 @@ $navbar-default-bg: #073B15;
 }
 
 .btn-xlarge{
-	background-color: #073B15
+	background-color: #073B15;
+}
+
+.active a {		
+	:hover {
+		background-color: red;	
+	}
 }
