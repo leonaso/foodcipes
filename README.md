@@ -57,7 +57,15 @@ Create new foodcipes app.
 	-	email should be unique, case insensitive
 	
 
-
-
+*	Routes
+	
+	Prefix			Verb		URI Pattern				Controller#Action
+	recipes			GET			/recipes					recipes#index 
+	new_recipe	GET			/recipes/new			recipes#new 		#displays a new form 
+							POST		/recipes					recipes#create 	#submit form 
+	edit_recipe	GET			/recipes/:id/edit		recipres#edit #displays an edit form		
+							PATCH   /recipes/:id 			recipes#update 	#submit form 
+	recipe 			GET 		/recipes/:id 			recipes#show 		#display a recipe 
+							DELETE	/recipes/:id 			recipes#destroy #dele a recipe 
 
 -
