@@ -35,12 +35,58 @@ $navbar-default-bg: #073B15;
 	text-decoration: none;
 }
 
-.btn-xlarge{
+.btn-xlarge {
 	background-color: #073B15;
+   margin-top: 10px;
+   margin-left: 10px;
 }
 
-.active a {		
-	:hover {
+.btn-xlarge:hoover {
+		color: #fff;
+		text-decoration: none;
+}
+
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777; 
+}
+
+footer a{
+	color: #555;
+}
+
+footer a:hoover{
+	color: #222;
+}
+
+footer small {
+	float: left;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+}
+footer ul li {
+	float: left;
+	margin-left: 15px;
+}
+
+.description {
+	margin-top: 0;
+}	
+
+.colormatch a {
+	color: #073B15;
+}
+
+.active a :hover {
 		background-color: red;	
-	}
+}
+
+.chef_info {
+	margin-top: 10px;
 }
