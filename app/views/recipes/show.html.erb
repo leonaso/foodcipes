@@ -1,4 +1,5 @@
 <%= render 'shared/page_title', title: @recipe.name %>
+
 <div class="well col-md-8 col-md-offset-2">
 	<h4 class="center description"><strong>Steps: </strong> </h4>
 	<hr />
@@ -15,5 +16,10 @@
 				<small><%= @recipe.chef.chefname.capitalize %></small>
 				<div class="pull-right" ><%= time_ago_in_words(@recipe.created_at) %> ago</div>
 			</p>
+		</div>
+		<div class="recipe-actions">
+			<%= link_to "Edit this recipe", edit_recipe_path(@recipe), class: "btn btn-xs btn-warning" %>			
+
+			<%= link_to "Delete this recipe", recipe_path(@recipe), method: :delete, data: {confirm: "Are you sure you want to delete ths recipe?"}, class: "btn btn-xs btn-danger" %>			
 		</div>
 </div>
